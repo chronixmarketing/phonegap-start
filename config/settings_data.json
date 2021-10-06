@@ -33,11 +33,21 @@
           "placeholder-0": {
             "type": "slide",
             "settings": {
+              "image": "shopify:\/\/shop_images\/f59bf431d44c23ae3251cf9aa7baca9a.jpg",
+              "image_position": "center center",
+              "title": "Folie",
+              "button_label": "Alle Produkte ansehen",
+              "button_link": ""
             }
           },
           "placeholder-1": {
             "type": "slide",
             "settings": {
+              "image": "shopify:\/\/shop_images\/f59bf431d44c23ae3251cf9aa7baca9a.jpg",
+              "image_position": "center center",
+              "title": "Folie",
+              "button_label": "Alle Produkte ansehen",
+              "button_link": ""
             }
           }
         },
@@ -46,6 +56,9 @@
           "placeholder-1"
         ],
         "settings": {
+          "hero_home_height": "small",
+          "hero_home_auto": false,
+          "hero_home_auto_speed": 5
         }
       },
       "footer": {
@@ -54,11 +67,14 @@
           "linklist": {
             "type": "menu",
             "settings": {
+              "link_list": "footer"
             }
           },
           "social": {
             "type": "social",
             "settings": {
+              "title": "Folge uns",
+              "align": "left"
             }
           }
         },
@@ -67,6 +83,7 @@
           "social"
         ],
         "settings": {
+          "show_payment_icons": true
         }
       },
       "featured-collections": {
@@ -75,16 +92,19 @@
           "featured-collections-0": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "featured-collections-1": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "featured-collections-2": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           }
         },
@@ -94,12 +114,14 @@
           "featured-collections-2"
         ],
         "settings": {
+          "stretch_collection_image": false
         }
       },
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "collection": "frontpage"
+          "collection": "frontpage",
+          "rows": 2
         }
       },
       "image-content": {
@@ -113,6 +135,9 @@
           "image-content-1": {
             "type": "text_block",
             "settings": {
+              "title": "Bild mit Text",
+              "text": "<p>Kombiniere große Schrift mit einem Foto, um einen Fokus auf dein ausgewähltes Produkt, die Kategorie oder einen Blogpost zu legen. Du kannst dann Details zur Verfügbarkeit und dem Style oder sogar eine Bewertung hinzufügen.<\/p>",
+              "align": "left"
             }
           }
         },
@@ -121,6 +146,16 @@
           "image-content-1"
         ],
         "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_max_width": "450",
+          "main_linklist": "main-menu",
+          "promo_bar_enable": false,
+          "promo_bar_text": "",
+          "promo_bar_link": ""
         }
       }
     },
