@@ -100,7 +100,13 @@
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
-  {{ content_for_header }}
+  
+
+<!-- Avada Boost Sales Script -->
+{% include 'avada-boost-sales' %}
+<!-- /Avada Boost Sales Script -->
+
+{{ content_for_header }}
 
 	{{ shop.metafields.loox["global_html_head"] }}
 
